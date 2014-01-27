@@ -24,7 +24,7 @@ Hardware needed
   
 This sketch will 
   - setup and initialize the ethernet connection
-  - connect to the evryhng api server
+  - connect to the evrythng api server
   - HTTP GET of the thng based on the provided id
       - return the HTTP response
       - if the HTTP response is not OK (200) -> end test
@@ -49,7 +49,7 @@ Hardware needed
   
 This sketch will 
   - setup and initialize the ethernet connection
-  - connect to the evryhng api server
+  - connect to the evrythng api server
   - create the new thng
   - serialprintln will provide the new thing id
       - if an error occurs and id cannot be obtained
@@ -74,7 +74,7 @@ Hardware needed
   
 This sketch will 
   - setup and initialize the ethernet connection
-  - connect to the evryhng api server
+  - connect to the evrythng api server
   - HTTP PUT to update a property of the thng based on the provided thng id and values
       - return the HTTP response
       - if the HTTP response is not OK (200) -> end test
