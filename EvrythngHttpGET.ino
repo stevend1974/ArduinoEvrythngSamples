@@ -11,7 +11,7 @@
   
   This sketch will 
   - setup and initialize the ethernet connection
-  - connect to the evryhng api server
+  - connect to the evrythng api server
   - HTTP GET of the thng based on the provided id
       - return the HTTP response
       - if the HTTP response is not OK (200) -> end test

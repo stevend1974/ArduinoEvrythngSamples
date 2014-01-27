@@ -12,7 +12,7 @@
   
   This sketch will 
   - setup and initialize the ethernet connection
-  - connect to the evryhng api server
+  - connect to the evrythng api server
   - create the new thng
   - serialprintln will provide the new thing id
       - if an error occurs and id cannot be obtained
