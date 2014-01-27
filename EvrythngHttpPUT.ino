@@ -61,10 +61,9 @@
 
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
 char serverName[] = "api.evrythng.com";
-//const char *APIToken = "replace_by_your_evrythng_api_token";
-//const char *thngid="replace_by_your_evrythng_thng_id";
-const char *APIToken = "Oz28gK1LijEoxWJKblXoHWGGrnbMaPUpjqAMnKRx2GoSFikMwig1Zcrb94GlZhiRBTtzYSWIeOTFzovI";
-const char *thngid="52e411f7e4b0a7fd3090b31a";
+const char *APIToken = "replace_by_your_evrythng_api_token";
+const char *thngid="replace_by_your_evrythng_thng_id";
+
 
 
 boolean endtest;
