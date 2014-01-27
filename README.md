@@ -14,15 +14,15 @@ EvrythngHttpGET
 ---------------
 Sketch Demonstrating getting a thng object from the Evrythng platform
   
-  Variables to modify
+Variables to modify
   const char *APIToken = " please set your evrythng api token value"
   const char *thngid=" please set an existing thng identifier value"
   
-  Hardware needed
+Hardware needed
   - arduino + NIC interface
   - DHCP enabled on your network
   
-  This sketch will 
+This sketch will 
   - setup and initialize the ethernet connection
   - connect to the evryhng api server
   - HTTP GET of the thng based on the provided id
@@ -38,16 +38,16 @@ EvrythngHttpPOST
 
 Sketch Demonstrating posting a thng object on the Evrythng platform
   
-  Variables to modify
+Variables to modify
   const char *APIToken = " please set your evrythng api token value"
   const char *thngid=" please set an existing thng identifier value"
   char thngjson[] = --> adapt json values in the string to your desired values
   
-  Hardware needed
+Hardware needed
   - arduino + NIC interface
   - DHCP enabled on your network
   
-  This sketch will 
+This sketch will 
   - setup and initialize the ethernet connection
   - connect to the evryhng api server
   - create the new thng
@@ -60,7 +60,7 @@ EvrythngHttpPUT
   
 Sketch Demonstrating updating a thng property on the Evrythng platform
   
-  Variables to modify
+Variables to modify
   const char *APIToken = " please set your evrythng api token value"
   const char *thngid=" please set an existing thng identifier value"
   char propertystr[] = "{\"key\": \"property1\",\"value\": \"updatedvalue1\"}";
@@ -68,11 +68,11 @@ Sketch Demonstrating updating a thng property on the Evrythng platform
         replace updatevalue1 with the value you want to update
 
   
-  Hardware needed
+Hardware needed
   - arduino + NIC interface
   - DHCP enabled on your network
   
-  This sketch will 
+This sketch will 
   - setup and initialize the ethernet connection
   - connect to the evryhng api server
   - HTTP PUT to update a property of the thng based on the provided thng id and values
@@ -92,7 +92,7 @@ Licence
       
 Copyright 2014 Steven D.
 
-The ArduinoEvrythngSample software is licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. 
+The ArduinoEvrythngSamples software is licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. 
 You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
