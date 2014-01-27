@@ -66,7 +66,6 @@ Variables to modify
   char propertystr[] = "{\"key\": \"property1\",\"value\": \"updatedvalue1\"}";
         replace property1 with an existing property on the thng
         replace updatevalue1 with the value you want to update
-
   
 Hardware needed
   - arduino + NIC interface
@@ -78,7 +77,31 @@ This sketch will
   - HTTP PUT to update a property of the thng based on the provided thng id and values
       - return the HTTP response
       - if the HTTP response is not OK (200) -> end test
-      - if the HTTP response is OK (200) -> get properties of thng  
+  
+
+EvrythngCreateAction
+--------------------
+
+Sketch Demonstrating posting an action on a thng object on the Evrythng platform
+  
+  Variables to modify
+  const char *APIToken = " please set your evrythng api token value"
+  const char *thngid=" please set an existing thng identifier value"
+  const char actionjson = --> adapt json values in the string to your desired values
+  for more information see https://dev.evrythng.com/documentation/api
+  
+Hardware needed
+  - arduino + NIC interface
+  - DHCP enabled on your network
+  
+This sketch will 
+  - setup and initialize the ethernet connection
+  - connect to the evrythng api server
+  - add a scan action to an existing thng
+  - serialprintln will provide the new action id
+      - if an error occurs and id cannot be obtained
+        the same object will be posted and the error will be printed to serial
+  
       
 
 Evrythng Setup
