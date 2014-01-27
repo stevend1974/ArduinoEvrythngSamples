@@ -3,12 +3,8 @@ ArduinoEvrythngSamples
 
 Sample Sketches on Arduino with Ethernet Shield using the Evrythng API
 
-ArduinoEvryThngSample
-=====================
 
-Arduino EvryThng Sample Sketches
-
-This is a sample Arduino application that uses the official Ethernet shield. 
+These are sample Arduino Sketches that use the official Ethernet shield. 
 It has been tested with Arduino Uno (v1.0) but it should also work with other boards.
 
 Arduino Sketches
