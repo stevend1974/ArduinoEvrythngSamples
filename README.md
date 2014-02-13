@@ -109,6 +109,14 @@ Evrythng Setup
 
 You will need an evrythng account and API token. 
 For more information see https://dev.evrythng.com/
+
+
+ActivityManagementArduinoEvrythng
+=================================
+ActivityMgmntArduinoEvryThng.ino is a sketch which demonstrates an activity management integration
+between Arduino and Evrythng.
+The needed hardware, schema setup and configuration are described in ActivityManagementArduinoEvrythng.pdf
+
       
 Licence
 =======
