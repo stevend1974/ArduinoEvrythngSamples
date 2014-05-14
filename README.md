@@ -117,6 +117,31 @@ ActivityMgmntArduinoEvryThng.ino is a sketch which demonstrates an activity mana
 between Arduino and Evrythng.
 The needed hardware, schema setup and configuration are described in ActivityManagementArduinoEvrythng.pdf
 
+This is a sample to simulate an activity registration component.
+
+The user can register the time he spent on an activity.
+
+This sample will demonstrate :
+obtaining thng properties from the Evrythng platform to the Arduino platform
+registering activities from the Arduino platform to the Evrythng platform
+
+The setup is a simple user interface with push buttons.
+LEDs are used to show the interaction.
+
+The user has 5 switches available :
+1 button will trigger a configuration update (updating activity description code)
+3 buttons will activate a specific activity code (activity1, activity2 or activity3)
+1 button will stop all activities
+  
+The current activity in progress will be indicated by the corresponding LED.
+The user can switch from one activity to another and hence stopping the previous activity
+The user can decide to do no activity at all
+     
+The duration of each activity will be sent to the Evrythng API.    
+
+The configuration settings (the activity code for each button) will be obtained from the Evrythng platform. During the update the red configuration LED will flash. 
+When the configuration is not being updated, the green configuration LED will permanently be on.
+      
       
 Licence
 =======
